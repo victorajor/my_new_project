@@ -1,0 +1,115 @@
+*{
+	font-size:16px;
+	font-family:'Lucida Sans',Arial, Helvetica;
+	list-style-type:disc;
+}
+
+.main{
+	width:100%;
+	background-color:; 
+}
+
+.top-div > strong{
+	font-size:30px;
+}
+
+header > .first-header{
+	border:18px solid #eee;	
+	font-size:2.5rem;
+	font-family:Algerian;
+	line-height:1.5;
+	text-align:center;
+}
+.contact > u{
+	font-size:2em;
+	font-family:'Franklin Gothic Demi', Arial, Helvetica;
+	margin-left:10px;
+}
+.first-paragraph > span{
+	display:block;
+	line-height:1.5;
+	font-size:18px;
+	font-family:'Lucida Sans',MonoSpace,Arial;
+	word-spacing:2px;
+	margin-left:20px
+}
+
+.mail,.address1,.country{
+	color:#aadd12;
+}
+.address2, .number{
+	color:red;
+}
+.strong{
+	font-size:21px;
+	font-family:'Lucida Sans',MonoSpace,Arial;
+}
+
+.second-header > u{
+	font-size:2em;
+	font-family:'Franklin Gothic Demi', Arial, Helvetica;	
+}
+.second-header{
+	margin-top:25px;
+	margin-left:10px;
+}
+
+.skills-paragraph1 , ul{
+	margin-left:50px;
+}
+.skills-paragraph2, ul{
+	margin-left:50px;
+}
+.skills-paragraph3, ul{
+	margin-left:50px;
+}
+.first-job{
+	margin-left:-20px;
+	font-size:22px;
+	font-weight:bold;
+	color:red;
+}
+
+.first-company{
+	font-size:20px;
+	color:#aadd12;
+}
+.second-company{
+	font-size:20px;
+	color:#aadd12;
+}
+.third-company{
+	font-size:20px;
+	color:#aadd12;
+}
+.second-job{
+	margin-left:-20px;
+	font-size:22px;
+	font-weight:bold;
+	color:red;
+}
+.third-job{
+	margin-left:-20px;
+	font-size:22px;
+	font-weight:bold;
+	color:red;
+}
+.education > u{
+	font-size:2em;
+	font-family:'Franklin Gothic Demi', Arial, Helvetica;
+}
+.university{
+	margin-left:-20px;
+	font-size:22px;
+	font-weight:bold;
+	color:red;
+}
+.degree, ol{
+	margin-left:50px;
+}
+.active{
+	display:block;
+}
+.uni-name{
+	color:#aadd12;
+}
