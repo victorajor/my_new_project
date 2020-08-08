@@ -1,0 +1,46 @@
+html{
+    font-size: 16px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+                                                                        
+.navigation{
+    background-color: rgb(107,40,61);
+}
+.nav-items{
+    display: flex;
+    padding: 10px;
+    margin:10px;
+    justify-content: space-around;
+}
+.nav-items li  {
+    list-style: none;
+}
+.nav-items li a{
+    text-decoration: none;
+    font-size:1.5rem;
+    color:white;
+}
+.sub-menu{
+    display: none;
+}
+.services:hover .menu1{
+    display:block;
+    position:absolute;
+    /* i wanted it to be relative to the viewport and not the container so it wouldnt be inside the nav */
+    margin-left:15px;
+    margin-top: 5px; 
+    background-color: rgb(107,40,61);
+}
+.nav-items:hover .menu1 ul li a{
+    display: block;
+    margin-top:6px;
+    padding: 10px;
+    background-color: rgb(107,40,61);
+}
+.menu1 ul li a:hover{
+    color: rgb(223, 240, 128);
+}
